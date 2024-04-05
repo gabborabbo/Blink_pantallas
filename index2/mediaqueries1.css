@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos específicos para pantallas de 600px o menos */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Cambia el tamaño de la fuente para dispositivos más pequeños */
+    }
+    .container {
+        width: 90%; /* Cambia el ancho del contenedor principal para que ocupe el 90% del ancho de la pantalla */
+        margin: 0 auto; /* Centra el contenedor */
+    }
+}
