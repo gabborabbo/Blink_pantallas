@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos específicos para pantallas de 600px o menos */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Cambia el tamaño de la fuente para dispositivos más pequeños */
+    }
+    .container {
+        width: 90%; /* Cambia el ancho del contenedor principal para que ocupe el 90% del ancho de la pantalla */
+        margin: 0 auto; /* Centra el contenedor */
+    }
+}
+@media only screen and (max-width: 767px) {
+    .encabezado {
+        background-color: #C7621D;
+        display: flex;
+        height: 61px;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%; 
+        
+    }
+    .barra {
+        display: flex;
+        align-items: center;
+        height: 61px;
+        max-width: 100%; 
+    }
+    body {
+        font-size: 14px; /* Cambia el tamaño de la fuente para dispositivos más pequeños */
+    }
+    .contenido-imagen {
+        /* Estilos para el contenido de imagen en dispositivos móviles */
+    }
+
+    .scroll-horizontal {
+        /* Estilos para el scroll horizontal en dispositivos móviles */
+    }
+
+    .imagen-scroll {
+        /* Estilos para las imágenes del scroll en dispositivos móviles */
+    }
+
+    .pie-pagina {
+        /* Estilos para el pie de página en dispositivos móviles */
+    }
+}

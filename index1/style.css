@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif", "Jeju Gothic";
+}
+.encabezado {
+    background-color: #C7621D;
+    display: flex;
+    height: 61px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; 
+    
+}
+.barra {
+    display: flex;
+    align-items: center;
+    height: 61px;
+    max-width: 100%; 
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('DD:\blink\index1\imagenes\Blink_Claro.png');
+    max-width: 100%; /* Anchura máxima para que se ajuste al dispositivo */
+    max-height: 100%; /* Altura máxima para que se ajuste al dispositivo */
+}
+.texto-logo {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 40px;
+    color: #F8C18B;
+    margin: 0;
+    max-width: 100%;
+}
+
+button {
+    background-color: white;
+    color: #C7621D;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 100%; /* Anchura máxima para que se ajuste al dispositivo */
+}
+
+.language1
+{
+background-color: #D56F1D;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+ .language2
+{
+    background-color: #707070;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+search-form
+{
+    margin-top: 10px;
+    display: flex;
+}
+
+.search-form input
+{
+    flex: 1;
+    justify-content: center;
+    padding: 0px 700px;
+    border: none;
+    border-radius: 5px 0 0 5px; /* Esquina izquierda redondeada */
+}
+
+.search-form button {
+    background-color: #E37D29;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; /* Esquina derecha redondeada */
+}
+
+.search-form button:hover {
+    background-color: #2980b9;
+}
+.contenedor_img img
+{
+height: 500px;
+padding: 20px 400px;
+
+}
+.contenedor-principal {
+    margin-bottom: 300px; /* Margen superior para el pie de página */
+    overflow-y: auto; /* Habilita el scroll vertical */
+    height: calc(100vh - 300px); /* Calcula la altura del contenedor */
+}
+.contenido-imagen {
+    margin: 30px auto;
+    width: calc(100% - 400px); /* Ajuste para los márgenes */
+    display: flex;
+    justify-content: center;
+}
+.titulo-scroll {
+    font-weight: bold;
+    color: #C7621D;
+    margin: 10px 0;
+    margin-left: 220px;
+    text-align: left;
+}
+.scroll-horizontal {
+    display: flex;
+    height: 500px;
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    margin: 10px 200px; /* Márgenes en cada lado */
+}
+.imagen-scroll {
+    flex-shrink: 0; /* Evita que las imágenes se encogen para adaptarse */
+    margin-right: 22px;
+    width: 200px;
+    height: 300px;
+}
+
+.imagen-scroll img {
+    flex-shrink: 0; /* Evita que las imágenes se encogen para adaptarse */
+    margin-right: 22px;
+    width: 200px;
+    height: 300px;
+    display: block;
+    width: 100%;
+}
+
+.imagen-scroll footer {
+    text-align: center;
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-color {
+    color: #C7621D;
+}
+.imagen-scroll:last-child {
+    margin-right: 0; /* Elimina el margen derecho de la última imagen */
+}
+
+.pie-pagina {
+    background-color: #C7621D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
